@@ -1,1 +1,1 @@
-console.log("Login script loaded.");
+console.log("Hello Jagat");
