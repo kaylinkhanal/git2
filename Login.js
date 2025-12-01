@@ -1,3 +1,3 @@
 let username='Aloj khadka';
-let password='1234';
+let password='234';
 console.log(username);
