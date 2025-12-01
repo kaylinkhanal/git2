@@ -21,5 +21,19 @@ Push-->git push origin -u 'yourBranchName'
 
 # Chekout to another baranch
 
-git cd 'pathYouHave'
+git cd 'pathNameYouHave'
 git checkout 'branchNameYouWantToSwitch'
+
+# Merged conflict 
+
+scenario :- when the branch is pushed by another friend or partner with same line of code and if we want to push the same code then it gives an error message 
+
+ ! [rejected]        prakash -> prakash (fetch first)
+error: failed to push some refs to 'https://github.com/kaylinkhanal/git2.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+solution : git pull "workingBranchName"   and resolve it 
