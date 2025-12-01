@@ -3,3 +3,6 @@ let password ="1234";
 if (username="bishmeeta"){
     console.log("Username is:", username);
 }
+else{
+    console.log("useris "+ password)
+}
