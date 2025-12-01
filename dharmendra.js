@@ -1,4 +1,4 @@
-const name  = 'ram'
+const name  = 'hari'
 let surname = 'thapa'
 
 const result = {
