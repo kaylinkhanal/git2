@@ -12,3 +12,4 @@ sum = sum + scores[item]
 }
 
 console.log(sum/450 * 100);
+console.log(math);
