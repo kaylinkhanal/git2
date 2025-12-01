@@ -1,4 +1,4 @@
-let a = "Hello  ";
-let b = "world!";
+let a = "1  ";
+let b = "23";
 let  c ="hi";
 console.log(a + b);
