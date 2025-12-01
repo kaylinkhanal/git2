@@ -1,7 +1,7 @@
-const name  = 'hari'
-let surname = 'thapa'
+const name = "Sita";
+let surname = "thapa";
 
 const result = {
-    [name]:surname
+  [name]: surname,
 };
-console.log(result)
+console.log(result);
